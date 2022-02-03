@@ -1,0 +1,5 @@
+com\example\docker\DockerApplication.class
+com\example\docker\MovieController.class
+com\example\docker\Movie.class
+com\example\docker\ServletInitializer.class
+com\example\docker\MovieRepository.class
