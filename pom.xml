@@ -12,12 +12,12 @@
 	<groupId>com.example</groupId>
 	<artifactId>docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>docker</name>
 	<description>Demo project for Spring Boot Docker Image</description>
 	<properties>
 		<java.version>11</java.version>
-		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<!--<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version> -->
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -66,5 +66,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<final-name>movieapp</final-name>
 </project>
