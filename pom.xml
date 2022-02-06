@@ -66,5 +66,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<final-name>movieapp</final-name>
+	<finalName>movieapp</finalName>
 </project>
