@@ -1,6 +1,7 @@
 package com.example.docker;
 
 import java.util.List;
+import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +22,10 @@ public class MovieController {
 	
 	@GetMapping("/movies")
 	public List<Movie> getMovies() {
-		return mRepo.findAll();
+		List<Movie> movies=new ArrayList<Movie>();
+		movies.add(new Movie("Bahubali"));
+		return movies;
+// 		return mRepo.findAll();
 	}
 	
 	@PostMapping("/movies")
